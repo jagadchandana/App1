@@ -1,0 +1,19 @@
+<div class="main-wrap">
+  <h2 class="header-text">Item Management</h2>
+  <hr>
+
+  <div class="content row">
+    <div class="col-3">
+      <ul class="list-group">
+        <li class="list-group-item" routerLinkActive="active" routerLink="/item/save">Sava Item</li>
+        <li class="list-group-item" routerLinkActive="active" routerLink="/item/update">Update Item</li>
+        <li class="list-group-item" routerLinkActive="active" routerLink="/item/delete">Delete Item</li>
+        <li class="list-group-item" routerLinkActive="active" routerLink="/item/get">Get Item</li>
+        <li class="list-group-item" routerLinkActive="active" routerLink="/item/get-all">Get All Item</li>
+      </ul>
+    </div>
+    <div class="col-9">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
